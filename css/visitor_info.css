@@ -1,0 +1,44 @@
+#map {
+  text-align: center;
+}
+  
+map, iframe {
+  width:50%;
+  height:300px;
+}
+
+
+.visitors_dd {
+  padding: 8px 12px;
+  color: #FFF;      
+}
+
+.visitors_dos {
+  background:#007373;  
+}
+ 
+.visitors_dont {
+  background: #D34747;  
+}
+.visitors_do {
+  max-width: 280px;
+}
+.visitors_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  margin: 4px 16px;
+}
+.visitors_header > div.title {
+  font-weight: bold;
+  padding: 4px;
+  font-size: 1.2em;
+}
+.visitors_header > div.icon {
+  padding: 4px;
+}
+.visitors_text_cont {
+  padding: 12px;
+  font-size: 0.9em;
+}

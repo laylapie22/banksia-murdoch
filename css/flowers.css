@@ -1,0 +1,186 @@
+
+.flower_filter_cont {
+  display: flex;
+  padding: 4px 8px;
+  justify-content: space-between;
+}
+.flower_attributes {
+  display: flex;
+  padding: 4px 6px;
+  justify-content: space-between;
+  color: #A5A5A5;
+}
+.flower_filter_toggle {
+  text-decoration: none;
+  color: #777 !important;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 15px;
+  line-height: 32px;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  background-color: #F5F5F5;
+  border-radius: 16px;
+  margin: 6px;
+  transition: all .5s ease-in-out;
+  max-width: 160px;
+}
+
+.flower_index {
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  z-index: 10;
+  color: #FFF;
+  font-weight: 900;
+}
+.filter_type_selected {
+  background: #8B5674 !important;
+  color: #FFF !important;
+}
+.filter_flowerings_selected {
+  background: #E79292 !important;
+  color: #FFF !important;
+}
+
+#flowers_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+.flower {
+  padding: 0px;
+  margin: 12px;
+  cursor: pointer;  
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+  width: 240px; 
+  opacity: 0;
+  /* visibility: hidden; */
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background: #FFF;
+  min-width: 240px;
+}
+
+.flower:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.flower_name {
+  font-size: 1.3em;  
+  padding: 4px 12px;
+  text-align: right;
+  color: #302e2e;
+}
+
+.flower_visible {
+  /* visibility: visible !important; */
+  opacity: 1 !important;
+}
+
+.flower_type {
+  cursor: pointer;
+  color: black;
+  /* border-bottom: 0.5px;  */
+}
+.flower_type:hover {
+  color: palevioletred;
+}
+
+.flower_season {
+  cursor: pointer;
+  color: black;
+}
+.flower_season:hover {
+  color: palevioletred;
+}
+
+#flowers_filter {
+  display: flex;
+  
+}
+.filter_attr{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#flower_title {
+  text-align: center;
+}
+
+
+#flower_body {
+  text-align: center;  
+}
+
+.flower_icon_cont {
+  width: 0px;
+  height: 0px;
+  border-top: 19px solid rgba(0,115,115,0.75);
+  border-bottom: 19px solid transparent;
+  border-left: 19px solid rgba(0,115,115,0.75);
+  border-right: 19px solid transparent;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.flowers_filter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.modal_flower_img_cont {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+  height: 100%;
+}
+
+.modal_flower_img_cont {
+  width: 100%;
+  height: auto;
+  padding: 6px;
+}
+
+.flower_filter_toggle_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+  .flower_filter_toggle_cont {
+    flex-direction: column;
+    width:100%;
+  }
+  .flower_filter_toggle {
+    max-width: 110px;
+    font-size: 10px;     
+  }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  .flower_filter_toggle_cont {
+    flex-direction: column;
+  }
+  .flower_filter_toggle {
+    max-width: 110px;
+    font-size: 10px;     
+  }
+}
