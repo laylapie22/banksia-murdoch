@@ -2,7 +2,7 @@
     { 
       "id": "aemula",    
       "index": 1,    
-      "name": "Banksia Aemula", 
+      "name": "Banksia aemula", 
       "otherNames": {
         "common": "Wallum Banksia"
       },
@@ -19,9 +19,9 @@
     {
       "id": "ashbyi",
       "index": 2,
-      "name": "Banksia Ashbyi",    
+      "name": "Banksia ashbyi",    
       "otherNames": {
-        "common": "Ashby’s Banksia"
+        "common": "Ashbyís Banksia"
       },
       "locations": [
         { "left": 373, "top": 129 },
@@ -42,10 +42,10 @@
     {
       "id": "attenuata",
       "index": 3,
-      "name": "Banksia Attenuata",
+      "name": "Banksia attenuata",
       "otherNames": {      
         "common": "Coastal Banksia or Candlestick Banksia",
-        "noongar": "biara"
+        "noongar": "Biara"
       },
       "locations": [
         { "left": 226, "top": 188 }
@@ -54,16 +54,16 @@
       "types": ["flower", "cone_fruit", "tree_leaf"],
       "floweringPeriod": ["spring", "summer"],    
       "shortDesc": "This name was chosen to describe the way in which the leaves of this species taper towards the base",
-      "description": "This species is usually a small tree with rough grey bark and long narrow leaves (8 – 15 cm long and less than 1cm wide). The leaves are flat and slightly serrated. ",
+      "description": "This species is usually a small tree with rough grey bark and long narrow leaves (8 ñ 15 cm long and less than 1cm wide). The leaves are flat and slightly serrated. ",
       "flowerDesc": "The most striking feature of this species is the tall, cylindrical flower spikes, up to 25 cm long.They have a strong light yellow colour and appear between October and March.",
       "habitat": "This species is found along the southwest coast of Australia from Geraldton to Albany. It thrives in deep, moist, sandy soils."
     },
     { 
       "id": "baxteri",    
       "index": 4,    
-      "name": "Banksia Baxteri", 
+      "name": "Banksia baxteri", 
       "otherNames": {
-        "common": "Bird’s nest Banksia"
+        "common": "Birdís nest Banksia"
       }, 
       "locations": [
         { "left": 207, "top": 303 }
@@ -71,7 +71,7 @@
       "images": ["cone","flower","tree"],  
       "types": ["flower", "cone_fruit", "tree_leaf"],
       "floweringPeriod": ["summer"],
-      "shortDesc": "named after William Baxter, a 19th century English gardener",    
+      "shortDesc": "named after William Baxter, a 19th century English collector",    
       "description": "A tall, single-stemmed shrub up to 3 metres high. The leaves are deeply divided and form triangular lobes. The leaves are prickly and up to 15cm long and 4 cm wide.", 
       "flowerDesc": "Pale yellow flowers which sit in a rosette of leaves. The flowers are large (3-12 cm diameter) and dome shaped. It flowers from late Spring to early autumn.",
       "habitat": "It occurs on sandy heathlands along the south coast of WA from Albany to Esperance."           
@@ -79,7 +79,7 @@
     {
       "id": "benthamiana",
       "index": 5,    
-      "name": "Banksia Benthamiana", 
+      "name": "Banksia benthamiana", 
       "otherNames": {
           "common": ""
       },
@@ -97,7 +97,7 @@
     {
       "id": "blechnifolia", 
       "index": 6,
-      "name": "Banksia Blechnifolia",
+      "name": "Banksia blechnifolia",
       "otherNames": {
         "common": ""
       },
@@ -115,12 +115,12 @@
       "shortDesc": "the name indicates that it has fern-like foliage",    
       "description": "This is a colourful prostrate banksia. The leaves are very attractive and can be up to 45cm long and 10cm wide. They are deeply divided and bluish green in colour. The new foliage appears in summer and is reddish brown and hairy.", 
       "flowerDesc": "This species produces large reddish pink flower spikes that are sometimes white towards the base. It flowers in spring from September to November.",
-      "habitat": "B blechnifolia comes from the south coast of WA from sandy heathlands between Albany and Esperance."
+      "habitat": "B blechnifolia comes from the south coast of WA from sandy heathlands between Jerramungup and Esperance."
     },
     {      
       "id": "burdettii",
       "index": 7,
-      "name": "Banksia Burdettii ",
+      "name": "Banksia burdettii ",
       "otherNames": {
         "common": ""
       },
@@ -132,13 +132,13 @@
       "floweringPeriod": ["summer"],
       "shortDesc": "named after the Burdett family who were pioneer native plant collectors in SA",    
       "description": "A large shrub with tapered leaves up to 25cm long with many small sharp teeth.", 
-      "flowerDesc": "The flower spikes are initially woolly white and they gradually open from the base upwards to reveal bright orange styles. Eventually the entire flower spike becomes bright orange. It flowers throughout the year, especially in the late spring and summer.",
+      "flowerDesc": "The flower spikes are initially woolly white and they gradually open from the base upwards to reveal bright orange styles. Eventually the entire flower spike becomes bright orange. It flowers especially in the late summer and autumn.",
       "habitat": "B burdettii grows on sandy soils in the mid-west of WA from the Moore River to the Hill River."
     },
     {
       "id": "cadolleana",
       "index": 8,
-      "name": "Banksia Cadolleana", 
+      "name": "Banksia cadolleana", 
       "otherNames": {
         "common": "Propeller Banksia"
       },
@@ -147,7 +147,7 @@
       "images": ["cone","flower","tree"],     
       "types": ["flower", "cone_fruit", "tree_leaf"],
       "floweringPeriod": ["autumn", "winter"],
-      "shortDesc": "the fruits resemble a ship’s propeller",    
+      "shortDesc": "the fruits resemble a shipís propeller",    
       "description": "A semi-prostrate banksia up to 1 metre high with long, narrow, heavily divided leaves. The leaves are bright green and the mid rib is prominent.",       
       "flowerDesc": "Small almost globular golden coloured flowers which appear in autumn and winter.",
       "fruitDesc": "These are very distinctive with huge seed follicles set in a small globular cone.",
@@ -156,7 +156,7 @@
     {    
       "id": "chamaephyton",
       "index": 9,
-      "name": "Banksia Chamaephyton", 
+      "name": "Banksia chamaephyton", 
       "otherNames": {
         "common": " "
       },
@@ -168,13 +168,13 @@
       "floweringPeriod": ["spring"],
       "shortDesc": "the name means low-growing or prostrate",    
       "description": "This is a prostrate banksia with fern-like foliage. It has long green leaves that are deeply divided to form a fishbone pattern.", 
-      "flowerDesc": "It has orange-brown and cream flower spikes that appear in late spring (October – December)",
-      "habitat": "A native to the south west of WA from inland areas from Geraldton to the Avon district."
+      "flowerDesc": "It has orange-brown and cream flower spikes that appear in late spring (October ñ December)",
+      "habitat": "A native to the south west of WA from inland areas from Eneabba to Mogumber."
     },
     {
       "id": "epica",
       "index": 10,    
-      "name": "Banksia Epica", 
+      "name": "Banksia epica", 
       "otherNames": {
         "common": " "
       },
@@ -184,7 +184,7 @@
       "images": ["cone","flower","tree"],
       "types": ["flower","cone_fruit","tree_leaf"],
       "floweringPeriod": ["winter"],
-      "shortDesc": "named after Edward John Eyre who made the epic journey on foot from Adelaide to Albany in 1846",    
+      "shortDesc": "named after Edward John Eyre who made the epic journey on foot from Adelaide to Albany in 1841, and for a long journey by John Falconer to collect specimens in 1986",    
       "description": "A medium size shrub up to 3 metres high with wedge-shaped green leaves (1-5cm long, 0.5-1.5cm wide)", 
       "flowerDesc": "Cylindrical pale yellow flower spikes (9-17cm tall and up to 6cm in diameter) in winter.",
       "habitat": "B epica is found on the south coast of WA in coastal heathlands near the western edge of the Great Australian Bight."
@@ -205,12 +205,12 @@
         "shortDesc": "the name means heath like",    
         "description": "A tall compact shrub up to 7 metres high with small dark green needle-like leaves.", 
         "flowerDesc": "Large cylindrical flower spikes which are a strong orange-red colour and up to 30cm high and 5cm in diameter. It flowers from late autumn to early spring.",
-        "habitat": "Banksia ericifolia is found on coastal sands in the Sydney region of NSW. It was one of the first specimens of Australia flora collected by Sir Joseph Banksia at Botany Bay in 1770."   
+        "habitat": "Banksia ericifolia is found on coastal sands in the Sydney region of NSW. It was one of the first specimens of Australia flora collected by Sir Joseph Banks at Botany Bay in 1770."   
     },
     {
         "id": "gardneri",
         "index": 12,
-        "name": "Banksia Gardneri",
+        "name": "Banksia gardneri",
         "otherNames": {
           "common": ""
         },
@@ -222,14 +222,14 @@
         "floweringPeriod": ["spring","winter"],
         "shortDesc": "named after Charles Gardner, a former Government botanist of WA",    
         "description": "A prostrate form which has three different varieties (var gardneri, var hiemalis, var brevidentata). Variety gardneri has deep green leaves with deep lobes. It flowers in Spring with rusty brown conical spikes. Variety brevidentata has large green leaves with toothed margins. It flowers in winter with rusty brown flower spikes. Variety hiemalis has pale green leaves with deep lobes and pink flower spikes in winter.", 
-        "flowerDesc": "It has orange-brown and cream flower spikes that appear in late spring (October – December)",
+        "flowerDesc": "",
         "habitat": "B gardneri occurs on heathland along the south coast of WA from Albany to Hopetoun."
     },
     {
         "id": "g_hiemalis",
         "as": "gardneri",
         "index": 13,
-        "name": "G Hiemalis",
+        "name": "Banksia g hiemalis",
         "locations": [
           { "left": 452, "top": 291 },
           { "left": 242, "top": 245 }
@@ -239,13 +239,13 @@
         "floweringPeriod": ["spring", "winter"],
         "shortDesc": "named after Charles Gardner, a former Government botanist of WA",    
         "description": "A prostrate form which has three different varieties (var gardneri, var hiemalis, var brevidentata). Variety gardneri has deep green leaves with deep lobes. It flowers in Spring with rusty brown conical spikes. Variety brevidentata has large green leaves with toothed margins. It flowers in winter with rusty brown flower spikes. Variety hiemalis has pale green leaves with deep lobes and pink flower spikes in winter.", 
-        "flowerDesc": "It has orange-brown and cream flower spikes that appear in late spring (October – December)",
+        "flowerDesc": "",
         "habitat": "B gardneri occurs on heathland along the south coast of WA from Albany to Hopetoun."   
     },
     {
         "id": "grandis",
         "index": 14,
-        "name": "Banksia Grandis", 
+        "name": "Banksia grandis", 
         "otherNames": {
           "common": "Bull Banksia"
         },
@@ -255,7 +255,7 @@
         "images": ["cone","flower","tree"],      
         "types": ["flower", "cone_fruit","tree_leaf"],
         "floweringPeriod": ["spring"],
-        "shortDesc": "name means large or small",    
+        "shortDesc": "name means large or tall",    
         "description": "A small tree up to 8 metres high with rough grey bark and spreading branches. It has large, dark green leaves 20-50cm long that are deeply divided forming triangular lobes. The new leaves are soft and woolly and brown or red coloured. ", 
         "flowerDesc": "Banksia grandis has huge golden-yellow flower spikes that are roughly cylindrical and up to 40cm in length. It flowers in spring.",
         "habitat": "Banksia grandis is commonly found as an understorey plant in the jarrah and karri forests of WA and on limestone soils near the coast."   
@@ -263,9 +263,9 @@
     {
         "id": "hookeriana",
         "index": 15,
-        "name": "Banksia Hookeriana", 
+        "name": "Banksia hookeriana", 
         "otherNames": {
-          "common": ""
+          "common": " "
         },
         "locations": [
           { "left": 321, "top": 334 }
@@ -273,7 +273,7 @@
         "images": ["cone","flower","tree"],      
         "types": ["flower", "cone_fruit","tree_leaf"],
         "floweringPeriod": ["spring"],
-        "shortDesc": "named after the 19th century British botanist, Sir James Hooker",    
+        "shortDesc": "(named after the 19th century British botanists, father and son William and Joseph Hooker)",    
         "description": "A dense, compact shrub up to 3 metres high and 3 metres wide. The leaves are long and narrow and heavily serrated.", 
         "flowerDesc": "Short, wide oblong-cylindrical flower spikes on the ends of branches. They are initially white and turn orange from the bottom up until the whole spike is orange. It flowers from winter to summer.",
         "habitat": "B hookeriana occurs in the Irwin district of WA on light sandy soils."   
@@ -281,7 +281,7 @@
     {
         "id": "ilicifolia",
         "index": 16,
-        "name": "Banksia Ilicifolia", 
+        "name": "Banksia ilicifolia", 
         "otherNames": {
           "common": "Holly-leaf banksia"
         },
@@ -291,13 +291,13 @@
         "floweringPeriod": ["autumn"],
         "shortDesc": "The name means holly like foliage",    
         "description": "A medium-sized tree up to 10 metres high. The leaves are broad and dark green and glossy, with irregular small teeth.", 
-        "flowerDesc": "This species does not form a flower spike. The flowers form a rosette which is encircled by the leaves. They are initially light yellow in colour, turning red as they age. Flowers occur throughout the year but especially in spring and autumn.",
+        "flowerDesc": "This species does not form a flower spike. The flowers form a brush which is encircled by the leaves. They are initially light yellow in colour, turning red as they age. Flowers occur throughout the year but especially in spring and autumn.",
         "habitat": "Banksia ilicifolia occurs on sandy soils along the south west coast from the Moore River to Albany, including the Perth area."   
     },
     {
         "id": "integrifolia",
         "index": 17,
-        "name": "Banksia Integrifolia", 
+        "name": "Banksia integrifolia", 
         "otherNames": {
           "common": "Coastal banksia"
         },
@@ -316,7 +316,7 @@
     {
         "id": "lanata",
         "index": 18,
-        "name": "Banksia Lanata", 
+        "name": "Banksia lanata", 
         "otherNames": {
           "common": "Coomallo banksia"
         },
@@ -327,10 +327,10 @@
         "images": ["cone","flower","tree"],      
         "types": ["flower", "cone_fruit","tree_leaf"],
         "floweringPeriod": ["spring","summer"],
-        "shortDesc": " same as id 17?",    
+        "shortDesc": "the name means woolly and refers to the flower bracts",    
         "description": "A low spreading shrub with long linear blue-green leaves. The new foliage is pink/brown", 
         "flowerDesc": "The flower spikes are orange/brown to cream in colour and appear in late Spring to early summer.",
-        "habitat": "Banksia lanata occurs over a limited range near Leseur National Park in the mid-west of WA."   
+        "habitat": "Banksia lanata occurs over a limited range between Arrowsmith and Coomallo in the mid-west of WA."   
     },
     {
         "id": "leptophylla",
@@ -343,8 +343,8 @@
         "images": ["cone","flower","tree"],      
         "types": ["flower", "cone_fruit","tree_leaf"],
         "floweringPeriod": ["summer"],
-        "shortDesc": "the name means thin leaf banksia",    
-        "description": "A low spreading shrub with long linear needle-like foliage. Similar in appearance to Banksia lanata, however the new foliage of Banksia leptophylla is green.", 
+        "shortDesc": "the name means narrow leaf",    
+        "description": "A low spreading shrub with long linear needle-like foliage. Similar in appearance to Banksia lanata, however the new foliage of Banksia leptophylla is brown.", 
         "flowerDesc": "The flower spikes are yellow and almost spherical in shape ( less than 10cm diameter) and appear from spring to early autumn.",
         "habitat": "Banksia leptophylla is a native of WA which grows on the coastal sandplain from the Moore River to Kalbarri."   
     },
@@ -366,12 +366,12 @@
         "shortDesc": "The word littoralis means close to water",    
         "description": "a medium sized tree up to 8 metres high with a spreading canopy and a thick trunk covered with rough grey bark. The leaves are long and thin and weakly serrated. The leaves are dark green on the upper side and white and tomentose on the underside.", 
         "flowerDesc": "Medium sized yellow cylindrical flower spikes ( less than 15cm high and 4-7cm diameter). It flowers in autumn and winter.",
-        "habitat": "Banksia littoralis grows on the coastal sand plain close to wetlands from Perth to Albany."   
+        "habitat": "Banksia littoralis grows on the coastal sand plain close to wetlands from Jurien to Albany."   
     },
     {
         "id": "media",
         "index": 21,
-        "name": "Banksia Media", 
+        "name": "Banksia media", 
         "otherNames": {
           "common": ""
         },
@@ -382,15 +382,15 @@
         "images": ["cone","flower","tree"],      
         "types": ["flower", "cone_fruit","tree_leaf"],
         "floweringPeriod": ["summer","autumn","winter"],
-        "shortDesc": "name means medium-sized",    
+        "shortDesc": "the name means íin the middleí, referring to its position between other species in its classification",    
         "description": "A medium size shrub up to 3 metres high. The leaves are medium size (6-15cm) and cuneate and evenly serrated. They are green on the upper side and white underneath.", 
         "flowerDesc": "Large oblong-cylindrical flower spikes which are creamy yellow at first and darken with age. It flowers from February to September.",
-        "habitat": "This species is from the coastal sandplain in the Eyre district of WA. ¥"   
+        "habitat": "This species is from the coastal sandplain in the Eyre district of WA."   
     },
     {
         "id": "menziesii",
         "index": 22,
-        "name": "Banksia Mienziesii", 
+        "name": "Banksia menziesii", 
         "otherNames": {
           "common": "firewood banksia"
         },
@@ -403,15 +403,15 @@
         "images": ["cone","flower","tree"],      
         "types": ["flower", "cone_fruit","tree_leaf"],
         "floweringPeriod": ["autumn","winter"],
-        "shortDesc": "named after Archibald Menzies and 18th century botanist",    
+        "shortDesc": "named after Archibald Menzies, an 18th century botanist and physician",    
         "description": "A small tree up to 15 metres high with a rough grey bark. The leaves are grey-green and regularly serrated. They are long and moderately wide. The underside is tomentose. ", 
-        "flowerDesc": "Medium size cylindrical flower spikes that are silver grey at first and then open from the bottom to produce golden styles with red styles above them. It flowers in autumn and winter. ",
-        "habitat": "Banksia menziesii is a native of the mid-west coast of WA from the Swan River to Shark Bay. "   
+        "flowerDesc": "Medium size cylindrical flower spikes that are silver grey at first and then open from the bottom to reveal red, pink or golden styles. It flowers in autumn and winter. ",
+        "habitat": "Banksia menziesii is a native of the mid-west coast of WA from Kalbarri to Mandurah."   
     },
     {
         "id": "petiolaris",
         "index": 23,
-        "name": "Banksia Petiolaris", 
+        "name": "Banksia petiolaris", 
         "otherNames": {
           "common": " "
         },
@@ -429,12 +429,12 @@
         "shortDesc": "the name petiolaris refers to the leaf stalk which is quite long",    
         "description": "A prostrate species with spreading horizontal branches underneath the soil surface. The leaves are long and moderately wide with regular teeth. The new growth is soft and brown and hairy.", 
         "flowerDesc": "Large pale yellow flower spikes are produced in the Spring.",
-        "habitat": "A native of the south coast of WA from the Stirling Ranges to Esperance."   
+        "habitat": "A native of the south coast of WA from Munglinup to Israelite Bay."   
     },
     {
         "id": "pilostylis",
         "index": 24,
-        "name": "Banksia Pilostylis", 
+        "name": "Banksia pilostylis", 
         "otherNames": {
           "common": " "
         },
@@ -444,15 +444,15 @@
         ],       
         "types": ["flower","cone_fruit", "tree_leaf"],
         "floweringPeriod": ["summer"],
-        "shortDesc": "the name refers to the soft, hairy styles of the flowers",    
-        "description": "A dense, bushy shrub up to 3 metres high. The mature leaves are deep green with regularly-spaced, short, sharp teeth. The young leaves are soft and golden brown", 
-        "flowerDesc": "Large oblong or ovoid yellow flower spikes. They have a woolly appearance prior to opening. The main flowering period is in summer",
-        "habitat": "Banksia pilostylis occurs on deep sandy soils in the Esperance district of Western Australia."   
+        "shortDesc": "the name refers to the soft, hairy styles of the flowers.",    
+        "description": "A dense, bushy shrub up to 3 metres high. The mature leaves are deep green with regularly-spaced, short, sharp teeth. The young leaves are soft and golden=brown.", 
+        "flowerDesc": "Large oblong or ovoid yellow flower spikes. They have a woolly appearance prior to opening. The main flowering period is in summer. ",
+        "habitat": "Banksia pilostylis occurs on deep sandy soils in the Esperance district of WA."   
     },
     {
         "id": "praemorsa",
         "index": 25,
-        "name": "Banksia Praemorsa", 
+        "name": "Banksia praemorsa", 
         "otherNames": {
           "common": "Cut-leaf banksia"
         },
@@ -471,7 +471,7 @@
     {
         "id": "prionotes",
         "index": 26,
-        "name": "Banksia Prionotes", 
+        "name": "Banksia prionotes", 
         "otherNames": {
           "common": "Acorn Banksia "
         },
@@ -480,16 +480,16 @@
         ],
         "images": ["cone","flower","tree"],      
         "types": ["flower", "cone_fruit","tree_leaf"],
-        "floweringPeriod": ["autumn"],
+        "floweringPeriod": ["autumn", "winter"],
         "shortDesc": "The name refers to the saw-toothed leaves",    
         "description": "A small tree up to 10 metres high with soft grey-white bark. The leaves are glabrous on both sides. The upper side is grey-green and the underside is white.The leaves are moderately long and quite thin with regular serrations.", 
-        "flowerDesc": "Terminal flower spikes which are white at first and turn orange from the base up. It flowers in autumn.",
-        "habitat": "Banksia prionotes occurs on sandy coastal soils over a wide range from Kalbarri to Albany. "   
+        "flowerDesc": "Terminal flower spikes which are white at first and turn orange from the base up. It flowers in autumn and winter.",
+        "habitat": "Banksia prionotes occurs on sandy coastal soils over a wide range from Shark Bay to Wagin."   
     },
     {
         "id": "repens",
         "index": 27,
-        "name": "Banksia Repens ", 
+        "name": "Banksia repens ", 
         "otherNames": {
           "common": " "
         },
@@ -502,12 +502,12 @@
         "shortDesc": "the name means creeping banksia",    
         "description": "A prostrate form with branches just below the ground. The leaves are large and have deep irregular lobes. ", 
         "flowerDesc": "The flower spikes are cream to yellow coloured and appear in the spring. ",
-        "habitat": "Banksia repens is widely distributed on the south coast of WA from Albany to Esperance. "   
+        "habitat": "Banksia repens is widely distributed on the south coast of WA from the Stirling Range to Israelite Bay."   
     },
     {
         "id": "sceptrum",
         "index": 28,
-        "name": "Banksia Sceptrum ", 
+        "name": "Banksia sceptrum ", 
         "otherNames": {
           "common": " "
         },
@@ -519,13 +519,13 @@
         "floweringPeriod": ["summer"],
         "shortDesc": "the name refers to the sceptre-like flower spikes on long branches ",    
         "description": "A medium size shrub up to 5metres high. The leaves are small (3-6cm long and 2cm wide) and glaucous and have regularly spaced small teeth. The tops are truncated. ", 
-        "flowerDesc": "The flower spikes are arranged obliquely to the branches and are large and cylindrical and pale yellow coloured. It flowers in spring. ",
+        "flowerDesc": "The flower spikes are arranged obliquely to the branches and are large and cylindrical and pale yellow coloured. It flowers in late spring and early summer. ",
         "habitat": "A native of the inland sandplains in the Murchison and Mullewa districts. "   
     },
     {
         "id": "speciosa",
         "index": 29,
-        "name": "Banksia Speciosa", 
+        "name": "Banksia speciosa", 
         "otherNames": {
           "common": "Showy Banksia"
         },
@@ -545,7 +545,7 @@
     {
         "id": "victoriae",
         "index": 30,
-        "name": "Banksia Victoriae", 
+        "name": "Banksia victoriae", 
         "otherNames": {
           "common": " "
         },
@@ -560,5 +560,5 @@
         "description": "A medium sized shrub up to 3 metres high with long narrow leaves which are deeply divided into regular triangular lobes. The new foliage is soft and greenish. ", 
         "flowerDesc": "The flower spikes are conical and initially are white but they turn orange from the base upwards as they age. It flowers in summer and autumn. ",
         "habitat": "Banksia Victoriae is found in the sandy heathlands of the Irwin and Murchison districts of WA. "   
-    }
+    } 
   ]
