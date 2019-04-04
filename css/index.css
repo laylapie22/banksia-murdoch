@@ -551,10 +551,42 @@ section {
   font-family: 'lato', sans-serif;
 }
 footer{
-  padding: 5% 5% 100px;
-  background: rgba(35,35,35,0.5);
+  padding: 7% 7% 100px;
+  background: rgb(204, 0, 0,0.9);
+  color: white;
 }
-
+#footer_parts{
+  display: flex;
+}
+#murdoch_contact > .contacts_link > a {
+  color: rgb(41, 40, 40);
+}
+#murdoch_contact > .contacts_link > a:hover {
+  color:white;
+}
+.contacts_link {
+  font: 30px;
+  padding: 5px 0;
+}
+#site_map{
+  position: absolute;
+  right: 15%;
+  padding-top: 5px;
+  letter-spacing: 2px;
+  font: 40px;
+  
+}
+.sitemap_links {
+  margin: 5px;
+}
+#site_map > .sitemap_links > a {
+  color: rgb(41, 40, 40) !important;
+  font-weight: 500;
+}
+#site_map > .sitemap_links:hover {
+  color: white !important;
+  font-weight: 600;
+}
 
 .header {
   color:#fff;
@@ -670,8 +702,6 @@ div.menu_ul > div > a:hover {
 .media_controls > div > i {
   padding: 2px 8px;
 }
-
-
 
 @media only screen 
   and (min-device-width: 375px) 

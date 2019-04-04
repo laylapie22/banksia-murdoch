@@ -1426,8 +1426,6 @@ img {
     margin-top: 7rem;
   }
 
-  &__img {
-  }
 
   &__box {
     @include flex-col;
@@ -1907,23 +1905,7 @@ body {
 	outline: none;
 }
 
-.demo-footer {
-	position: fixed;
-  z-index: 100;
-	bottom: 0;
-	width: 100%;
-	padding: 15px;
-	background-color: #212121;
-	text-align: center;
-}
 
-.demo-footer > a {
-  
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 16px;
-	color: #fff;
-}
 // POP UP Responsive Dialog box ! for each of the Banksias !!! :))  END ~~ --------
 
 
@@ -2657,13 +2639,9 @@ div.ID_3_Position_1
 }
 // https://www.w3schools.com/css/css_positioning.asp
 
-.marker_placement{
-  }
-
-
 
   #marker{
-  /* margin, it will make it stay in its position ! */
+/* margin, it will make it stay in its position ! */
   position:absolute;
   margin-top: -220px;
   margin-left: 200px; 
@@ -2776,10 +2754,6 @@ div.ID_3_Position_1
     
   	}
     
-}
-
-.card_placement{
-
 }
 
 
