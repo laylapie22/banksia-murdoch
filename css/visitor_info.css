@@ -11,6 +11,10 @@ map, iframe {
 .visitors_dd {
   padding: 8px 12px;
   color: #FFF;      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .visitors_dos {
@@ -22,6 +26,7 @@ map, iframe {
 }
 .visitors_do {
   max-width: 280px;
+  min-width: 210px;
 }
 .visitors_header {
   display: flex;
@@ -41,4 +46,28 @@ map, iframe {
 .visitors_text_cont {
   padding: 12px;
   font-size: 0.9em;
+}
+.visitors_cont {
+  display: flex;
+
+}
+.visitors_dd > .row {
+  justify-content: center;
+}
+
+@media only screen and (min-width: 300px) 
+and (max-width: 600px) 
+ {
+  .visitors_cont {
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) 
+ {
+  .visitors_dd > .row {
+    flex-direction: row;
+  }
+
 }

@@ -177,12 +177,12 @@
           </span>
           </i>
           <i id='increase_font'>
-            <svg style="width:34px;height:34px" viewBox="0 0 24 24">
+            <svg style="width:34px;height:34px; user-select: none;" viewBox="0 0 24 24">
                 <path fill="#fff" d="M5.12,14L7.5,7.67L9.87,14M6.5,5L1,19H3.25L4.37,16H10.62L11.75,19H14L8.5,5H6.5M18,7L13,12.07L14.41,13.5L17,10.9V17H19V10.9L21.59,13.5L23,12.07L18,7Z" />
             </svg>
           </i>
           <i id='decrease_font'>
-            <svg style="width:34px;height:34px" viewBox="0 0 24 24">
+            <svg style="width:34px;height:34px; user-select: none;" viewBox="0 0 24 24">
                 <path fill="#fff" d="M5.12,14L7.5,7.67L9.87,14M6.5,5L1,19H3.25L4.37,16H10.62L11.75,19H14L8.5,5H6.5M18,17L23,11.93L21.59,10.5L19,13.1V7H17V13.1L14.41,10.5L13,11.93L18,17Z" />
             </svg>
           </i>
@@ -251,7 +251,7 @@
     </div>
 
     <div class="container">
-      <div style="display: flex; padding: 32px; justify-content: center;">
+      <div class="visitors_cont" style="display: flex; padding: 32px; justify-content: center;">
         <div class="visitors_dd visitors_dos">
             <div class="row">
               <div class="col visitors_do">
@@ -472,9 +472,15 @@
     <div id="about_us_intro">
         <div id='group_name'>Team Menziesii</div>
         <div id='project_name'>The BANKSIA COURT APP Project</div>
-        <p>BANKSIA COURT, this specialised banksia arboretum was established in 1995 to mark the 20th anniversary of the opening of the University.
-        It holds a vibrant diversity of banksias and is a rich food source for honeyeaters and black cockatoos, while the dense undergrowth provides vital habitat for ‘Conservation Dependent’ Southern Brown Bandicoots (Quendas), native lizards and invertebrates. Murdoch’s Banksia Court is the only other dedicated Banksia Garden in WA apart from the one in King’s Park.
-        The Banksia Court's interpretation assets are limited, which makes under-utilized with regards to its educational potential, and its regional importance is greatly unknown.
+        <p></p>
+        <p><strong>BANKSIA COURT</strong>, this specialised banksia arboretum was established in 1995 to mark the 20th anniversary of the opening of the University.</em></p>
+        <p></p>
+        <p>
+        It holds a vibrant diversity of banksias and is a rich food source for honeyeaters and black cockatoos, while the dense undergrowth provides vital habitat for ‘Conservation Dependent’ 
+        Southern Brown Bandicoots (Quendas), native lizards and invertebrates. 
+        </p>
+        <p>Murdoch’s Banksia Court is the only other dedicated Banksia Garden in WA apart from the one in King’s Park.
+        The Banksia Court's interpretation assets are limited, which makes under-utilized with regards to its educational potential, and its regional importance is greatly unknown.        
         </p>
     </div>
     <div class="container">      
@@ -630,8 +636,8 @@
 
     <!-- START FOOTER -->
   <footer>
-    <div id='footer_parts'>
-      <div id="murdoch_contact">
+    <div id='footer_parts' style="position: relative;">
+      <div id="murdoch_contact" style="padding: 32px;">
         CONTACT US
         <div class="contacts_link"><a href="#" >+61 8 9360 6000</a></div>
         <div class="contacts_link"><a href="https://www.murdoch.edu.au/contact-us/">General Enquiries</a></div>
@@ -649,19 +655,22 @@
           </div>
           <div class="contacts_link"><a href="https://goo.gl/maps/RQ1VFJ4Mk3B2">View on Map</a></div>
       </div>
-      <div id="site_map">
+      <div id="site_map" style="padding: 32px;">
           <div style="font: 40px;">LINKS</div>
               <div class="sitemap_links"><a href="#Home" class="contacts__link">Home</a></div>
               <div class="sitemap_links"><a href="#flowers_section" class="contacts__link">Flowers</a></div>
               <div class="sitemap_links"><a href="#Walkthrough" class="contacts__link">Walkthrough</a></div>
               <div class="sitemap_links"><a href="#news_section" class="contacts__link">News & Events</a></div>
               <div class="sitemap_links"><a href="#visitors_info_section" class="contacts__link">Visitor Info</a></div>
-              <div class="sitemap_links"><a href="#AboutUs" class="contacts__link">About Us</a></div>
-              <div> <button id="mutebtn" type="button" class="btn btn-danger btn-lg btn3d" onclick="printPage('/Banksia_Court_Garden_Information.pdf');">
-                <span id="btnicon" class="glyphicon glyphicon-print"></span>
-                  </button>
-              </div>
+              <div class="sitemap_links"><a href="#AboutUs" class="contacts__link">About Us</a></div>              
         </div>   
+        <div style="position: absolute; bottom: 16px; right: 6px; cursor: pointer;" title="Download Garden Information">                 
+            <i onClick="printPage('/Banksia_Court_Garden_Information.pdf')">
+              <svg style="width:52px;height:52px" viewBox="0 0 24 24">
+                  <path fill="#fff" d="M14,2L20,8V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V4A2,2 0 0,1 6,2H14M18,20V9H13V4H6V20H18M10.92,12.31C10.68,11.54 10.15,9.08 11.55,9.04C12.95,9 12.03,12.16 12.03,12.16C12.42,13.65 14.05,14.72 14.05,14.72C14.55,14.57 17.4,14.24 17,15.72C16.57,17.2 13.5,15.81 13.5,15.81C11.55,15.95 10.09,16.47 10.09,16.47C8.96,18.58 7.64,19.5 7.1,18.61C6.43,17.5 9.23,16.07 9.23,16.07C10.68,13.72 10.9,12.35 10.92,12.31M11.57,13.15C11.17,14.45 10.37,15.84 10.37,15.84C11.22,15.5 13.08,15.11 13.08,15.11C11.94,14.11 11.59,13.16 11.57,13.15M14.71,15.32C14.71,15.32 16.46,15.97 16.5,15.71C16.57,15.44 15.17,15.2 14.71,15.32M9.05,16.81C8.28,17.11 7.54,18.39 7.72,18.39C7.9,18.4 8.63,17.79 9.05,16.81M11.57,11.26C11.57,11.21 12,9.58 11.57,9.53C11.27,9.5 11.56,11.22 11.57,11.26Z" />
+              </svg>
+            </i>                
+          </div>
     </div>
 
       

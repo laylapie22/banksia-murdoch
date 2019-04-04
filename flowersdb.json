@@ -158,7 +158,7 @@
       "index": 9,
       "name": "Banksia Chamaephyton", 
       "otherNames": {
-        "common": " "
+        "common": ""
       },
       "locations": [
         { "left": 458, "top": 223 }
@@ -176,7 +176,7 @@
       "index": 10,    
       "name": "Banksia Epica", 
       "otherNames": {
-        "common": " "
+        "common": ""
       },
       "locations": [
         { "left": 363, "top": 356  }
@@ -413,7 +413,7 @@
         "index": 23,
         "name": "Banksia Petiolaris", 
         "otherNames": {
-          "common": " "
+          "common": ""
         },
         "locations": [
           { "left": 303, "top": 325 },
@@ -436,7 +436,7 @@
         "index": 24,
         "name": "Banksia Pilostylis", 
         "otherNames": {
-          "common": " "
+          "common": ""
         },
         "locations": [
           { "left": 418, "top": 328 },
@@ -491,7 +491,7 @@
         "index": 27,
         "name": "Banksia Repens ", 
         "otherNames": {
-          "common": " "
+          "common": ""
         },
         "locations": [
           { "left": 286, "top": 246 }
@@ -509,7 +509,7 @@
         "index": 28,
         "name": "Banksia Sceptrum ", 
         "otherNames": {
-          "common": " "
+          "common": ""
         },
         "locations": [
           { "left": 147, "top": 509 }
@@ -547,7 +547,7 @@
         "index": 30,
         "name": "Banksia Victoriae", 
         "otherNames": {
-          "common": " "
+          "common": ""
         },
         "locations": [
           { "left": 71, "top": 518 },

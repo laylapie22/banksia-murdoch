@@ -1,25 +1,18 @@
 [
     {
         "id": "1",
-        "date": "00/0/2018",
-        "author": "AUTHOR",
-        "title": "Lorem ipsum dolor sit amet",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."                   
+        "date": "02 April 2019",
+        "author": "Phillip Jennings",
+        "title": "What's blooming this Autumn",
+        "img": "http://plane.com.au/wp-content/uploads/2018/03/plane-Banksia_1.jpg",
+        "content": "The Banksia Court is full of colourful blooms this autumn with the acorn banksia (Banksia prionotes) and Banksia victoriae putting on a great show. If you look carefully you will also see some large yellow flower spikes on Banksia media, Banksia integrifolia and Banksia epica."                   
                     
     },
     {
         "id": "2",
-        "date": "00/0/2019",
-        "author": "AUTHOR",
-        "title": "Consectetur adipiscing elit",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum curabitur vitae nunc sed velit dignissim sodales ut. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam."
-    },
-    {
-        "id": "3",
-        "date": "00/0/2019",
-        "author": "AUTHOR",
-        "title": "Sed do eiusmod tempor",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed turpis tincidunt id aliquet risus feugiat in ante metus."
+        "date": "02 April 2019",
+        "author": "Phillip Jennings",
+        "title": "Banksia Garden Upgrade",
+        "content": "The Vice Chancellor has provided an innivation grant to enable us to renew the signage and provide an app for visitors to the Banksia Court garden. These improvements will be rolled out during 2019. The Murdoch University banksia garden is one of only two such gardens is this state."
     }
-    
 ]

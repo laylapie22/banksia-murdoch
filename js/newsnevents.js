@@ -1,34 +1,35 @@
-// Filter News & Events Posts
-function filter() {
-  var input, filter, table, tr, td, i;
-  input = document.getElementById("filter");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("newsnevents");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }       
-  }
-}
-
-
-
 function convertResponseToJson(response) {
   return response.json()
 }
 
 const newsneventsTable = document.getElementById("newsnevents")
+const filterList = document.getElementById("filter")
 
-// Populate News & Events Table
+// Populate News & Events Table & filter drop down list
 function addNewsnEventsToSection(newsneventsArr, id, date) {
+  var optionArr = [];
   for ( const newsnevent of newsneventsArr ) {
-      console.log('test', newsnevent.id, newsnevent.date, newsnevent.author)
+        var check = 0;
+        var year = newsnevent.date;
+        year = year.split(' ');
+
+      // Loop through current ddl to check if year exist
+      optionArr.forEach(function(item, index, array) {
+        if(item == year[2]) {
+          check = check + 1;
+        }
+      });
+
+      // If none, add option html and push to optionArr
+      if(check == 0) {
+          optionArr.push(year[2]);
+          const option = document.createElement('option')
+          option.value = year[2];
+          option.innerHTML = year[2];
+          filterList.appendChild(option);
+      }
+
+      // Add post
       const tr = document.createElement('tr') 
       tr.id = newsnevent.id;  
       const td = document.createElement('td') 
@@ -56,6 +57,7 @@ function addNewsnEventsToSection(newsneventsArr, id, date) {
       tr.appendChild(td) 
       newsneventsTable.appendChild(tr)
   }  
+
   // Read More function
   var lineHeight = 20;
   var lines = 2;
@@ -67,13 +69,32 @@ function addNewsnEventsToSection(newsneventsArr, id, date) {
   });
 }
 
+// Filter News & Events Posts
+function filter() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("filter");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("newsnevents");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+
 // Retrieve newsnevents db
 function renderAllNewsnEvents(id, date) {
   fetch('/newsnevents.json')
     .then(convertResponseToJson)
     .then(function(newsneventsArr) {
       addNewsnEventsToSection(newsneventsArr, id, date)
-    });
+    })
 }
 
 renderAllNewsnEvents()

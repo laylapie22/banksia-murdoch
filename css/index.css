@@ -551,8 +551,8 @@ section {
   font-family: 'lato', sans-serif;
 }
 footer{
-  padding: 7% 7% 100px;
-  background: rgb(204, 0, 0,0.9);
+  /* padding: 7% 7% 100px; */
+  background: #007373;
   color: white;
 }
 #footer_parts{
@@ -703,10 +703,8 @@ div.menu_ul > div > a:hover {
   padding: 2px 8px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+@media only screen and (max-width: 500px) 
+  { 
 
   .slide_content_title {
     padding: 4px;
@@ -734,9 +732,8 @@ div.menu_ul > div > a:hover {
 
 
 @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  and (min-width: 501px) 
+  and (max-width: 800px) { 
 
   .main_section_header {
     display: none;
