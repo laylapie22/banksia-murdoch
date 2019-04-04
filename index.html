@@ -43,18 +43,6 @@
       </div>
     
   </header>
-  <!-- <div id="onandoffButton" class="onandoff">
-    <div> <button id ="Textbutton" type="button" class="btn btn-primary btn-lg btn3d">
-          <span class="glyphicon glyphicon-text-size"></span>
-          </button>
-    </div>
-    <div> 
-        <button id="mutebtn" type="button" class="btn btn-danger btn-lg btn3d" onclick="mute()">
-        <span id="btnicon" class="glyphicon glyphicon-volume-up"></span>
-        </button>
-        <audio id="audio" src="ChillMill2.mpeg" loop="true" type="audio/mpeg" style="display:none"  autoplay loop></audio>
-    </div>
-  </div>  -->
   
   <main id="Home" class="main-content">             
     <section id='home_section' class="slideshow">
@@ -175,9 +163,6 @@
       </div>
       <div class='media_controls'>        
         <div style="padding: 4px 12px; cursor: pointer">  
-          <!-- <button id ="Textbutton" type="button" class="btn btn-primary btn-lg btn3d">
-            <span class="glyphicon glyphicon-text-size"></span>
-          </button> -->
           <i class="media_control_btn" id='media_control_btn_toggle'>
             <span id='media_on' class="media_visible">
               <svg fill="currentColor" style="width:34px;height:34px" viewBox="0 0 24 24">
@@ -645,39 +630,41 @@
 
     <!-- START FOOTER -->
   <footer>
-      <div class="murdoch_contact">
-        <p>
-        <a href="#" class="contacts__link">+61 8 9360 6000</a>
-        <br>
-        <a href="https://www.murdoch.edu.au/contact-us/" class="contacts__link">General Enquiries</a>
-          <br>
-          <br>
-          Perth campus
-          <br>
-          90 South Street, Murdoch
-          <br>
-          Western Australia 6150
-          <br>
-          (15 mins from the city centre of Perth)
-          <br> 
-          <a href="https://goo.gl/maps/RQ1VFJ4Mk3B2" class="contacts__link">View on Map</a>
-        </p> 
+    <div id='footer_parts'>
+      <div id="murdoch_contact">
+        CONTACT US
+        <div class="contacts_link"><a href="#" >+61 8 9360 6000</a></div>
+        <div class="contacts_link"><a href="https://www.murdoch.edu.au/contact-us/">General Enquiries</a></div>
+          <div>
+              <p> 
+              <br>
+              Perth campus
+              <br>
+              90 South Street, Murdoch
+              <br>
+              Western Australia 6150
+              <br>
+              (15 mins from the city centre of Perth)
+              </p>
+          </div>
+          <div class="contacts_link"><a href="https://goo.gl/maps/RQ1VFJ4Mk3B2">View on Map</a></div>
       </div>
+      <div id="site_map">
+          <div style="font: 40px;">LINKS</div>
+              <div class="sitemap_links"><a href="#Home" class="contacts__link">Home</a></div>
+              <div class="sitemap_links"><a href="#flowers_section" class="contacts__link">Flowers</a></div>
+              <div class="sitemap_links"><a href="#Walkthrough" class="contacts__link">Walkthrough</a></div>
+              <div class="sitemap_links"><a href="#news_section" class="contacts__link">News & Events</a></div>
+              <div class="sitemap_links"><a href="#visitors_info_section" class="contacts__link">Visitor Info</a></div>
+              <div class="sitemap_links"><a href="#AboutUs" class="contacts__link">About Us</a></div>
+              <div> <button id="mutebtn" type="button" class="btn btn-danger btn-lg btn3d" onclick="printPage('/Banksia_Court_Garden_Information.pdf');">
+                <span id="btnicon" class="glyphicon glyphicon-print"></span>
+                  </button>
+              </div>
+        </div>   
     </div>
 
-      <div id="site_map">
-        <div>Links</div>
-            <div class="sitemap_links"><a href="#Home" class="contacts__link">Home</a></div>
-            <div class="sitemap_links"><a href="#flowers_section" class="contacts__link">Flowers</a></div>
-            <div class="sitemap_links"><a href="#Walkthrough" class="contacts__link">Walkthrough</a></div>
-            <div class="sitemap_links"><a href="#news_section" class="contacts__link">News & Events</a></div>
-            <div class="sitemap_links"><a href="#visitors_info_section" class="contacts__link">Visitor Info</a></div>
-            <div class="sitemap_links"><a href="#AboutUs" class="contacts__link">About Us</a></div>
-            <div> <button id="mutebtn" type="button" class="btn btn-danger btn-lg btn3d" onclick="printPage('/Banksia_Court_Garden_Information.pdf');">
-              <span id="btnicon" class="glyphicon glyphicon-print"></span>
-                </button>
-            </div>
-      </div>   
+      
   </footer>
     <!-- END FOOTER -->
   
