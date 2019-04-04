@@ -521,7 +521,7 @@ a.scroll_indicator {
 }
 
 
-#flowers_section, #walkthrough_section, #visitors_info_section, #aboutUs, news_section {
+#flowers_section, #walkthrough_section, #visitors_info_section, #aboutUs {
   padding: 62px 22px; 
 }
 
@@ -703,6 +703,7 @@ div.menu_ul > div > a:hover {
   padding: 2px 8px;
 }
 
+
 @media only screen and (max-width: 500px) 
   { 
 
@@ -727,6 +728,9 @@ div.menu_ul > div > a:hover {
   }
   .menuIcon {
     visibility: visible;
+  }
+  .section_header {
+    font-size: 0.8em;
   }
 }
 

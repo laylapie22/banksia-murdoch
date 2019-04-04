@@ -190,6 +190,11 @@ let FONT_SIZE_LEVEL = 0
 const SELECTOR_TO_TOGGLE_TEXT_SIZE = [
   '.slide_content_title',
   '.text > p',
+  '.flower_type',
+  '.flower_season',
+  '.section_header',
+  '.visitors_text',
+  '.title'
 ]
 
 document.getElementById('increase_font').addEventListener('click', function() {
@@ -201,8 +206,6 @@ document.getElementById('increase_font').addEventListener('click', function() {
       const newFontSize = originalFontNumber*1.1;
       $(cls).css('font-size', newFontSize);
     })
-    
-    
     FONT_SIZE_LEVEL++
   }
 

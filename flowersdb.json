@@ -2,7 +2,7 @@
     { 
       "id": "aemula",    
       "index": 1,    
-      "name": "Banksia Aemula", 
+      "name": "Banksia aemula", 
       "otherNames": {
         "common": "Wallum Banksia"
       },
@@ -19,7 +19,7 @@
     {
       "id": "ashbyi",
       "index": 2,
-      "name": "Banksia Ashbyi",    
+      "name": "Banksia ashbyi",    
       "otherNames": {
         "common": "Ashby’s Banksia"
       },
@@ -42,7 +42,7 @@
     {
       "id": "attenuata",
       "index": 3,
-      "name": "Banksia Attenuata",
+      "name": "Banksia attenuata",
       "otherNames": {      
         "common": "Coastal Banksia or Candlestick Banksia",
         "noongar": "biara"
@@ -61,7 +61,7 @@
     { 
       "id": "baxteri",    
       "index": 4,    
-      "name": "Banksia Baxteri", 
+      "name": "Banksia aaxteri", 
       "otherNames": {
         "common": "Bird’s nest Banksia"
       }, 
@@ -79,7 +79,7 @@
     {
       "id": "benthamiana",
       "index": 5,    
-      "name": "Banksia Benthamiana", 
+      "name": "Banksia benthamiana", 
       "otherNames": {
           "common": ""
       },
@@ -97,7 +97,7 @@
     {
       "id": "blechnifolia", 
       "index": 6,
-      "name": "Banksia Blechnifolia",
+      "name": "Banksia blechnifolia",
       "otherNames": {
         "common": ""
       },
@@ -120,7 +120,7 @@
     {      
       "id": "burdettii",
       "index": 7,
-      "name": "Banksia Burdettii ",
+      "name": "Banksia burdettii ",
       "otherNames": {
         "common": ""
       },
@@ -138,7 +138,7 @@
     {
       "id": "cadolleana",
       "index": 8,
-      "name": "Banksia Cadolleana", 
+      "name": "Banksia cadolleana", 
       "otherNames": {
         "common": "Propeller Banksia"
       },
@@ -156,7 +156,7 @@
     {    
       "id": "chamaephyton",
       "index": 9,
-      "name": "Banksia Chamaephyton", 
+      "name": "Banksia chamaephyton", 
       "otherNames": {
         "common": ""
       },
@@ -174,7 +174,7 @@
     {
       "id": "epica",
       "index": 10,    
-      "name": "Banksia Epica", 
+      "name": "Banksia epica", 
       "otherNames": {
         "common": ""
       },
@@ -210,7 +210,7 @@
     {
         "id": "gardneri",
         "index": 12,
-        "name": "Banksia Gardneri",
+        "name": "Banksia gardneri",
         "otherNames": {
           "common": ""
         },
@@ -229,7 +229,7 @@
         "id": "g_hiemalis",
         "as": "gardneri",
         "index": 13,
-        "name": "G Hiemalis",
+        "name": "g hiemalis",
         "locations": [
           { "left": 452, "top": 291 },
           { "left": 242, "top": 245 }
@@ -245,7 +245,7 @@
     {
         "id": "grandis",
         "index": 14,
-        "name": "Banksia Grandis", 
+        "name": "Banksia grandis", 
         "otherNames": {
           "common": "Bull Banksia"
         },
@@ -263,7 +263,7 @@
     {
         "id": "hookeriana",
         "index": 15,
-        "name": "Banksia Hookeriana", 
+        "name": "Banksia hookeriana", 
         "otherNames": {
           "common": ""
         },
@@ -281,7 +281,7 @@
     {
         "id": "ilicifolia",
         "index": 16,
-        "name": "Banksia Ilicifolia", 
+        "name": "Banksia ilicifolia", 
         "otherNames": {
           "common": "Holly-leaf banksia"
         },
@@ -297,7 +297,7 @@
     {
         "id": "integrifolia",
         "index": 17,
-        "name": "Banksia Integrifolia", 
+        "name": "Banksia integrifolia", 
         "otherNames": {
           "common": "Coastal banksia"
         },
@@ -316,7 +316,7 @@
     {
         "id": "lanata",
         "index": 18,
-        "name": "Banksia Lanata", 
+        "name": "Banksia lanata", 
         "otherNames": {
           "common": "Coomallo banksia"
         },
@@ -327,7 +327,7 @@
         "images": ["cone","flower","tree"],      
         "types": ["flower", "cone_fruit","tree_leaf"],
         "floweringPeriod": ["spring","summer"],
-        "shortDesc": " same as id 17?",    
+        "shortDesc": "the name refers to the smooth or unbroken leaf margins",    
         "description": "A low spreading shrub with long linear blue-green leaves. The new foliage is pink/brown", 
         "flowerDesc": "The flower spikes are orange/brown to cream in colour and appear in late Spring to early summer.",
         "habitat": "Banksia lanata occurs over a limited range near Leseur National Park in the mid-west of WA."   
@@ -371,7 +371,7 @@
     {
         "id": "media",
         "index": 21,
-        "name": "Banksia Media", 
+        "name": "Banksia media", 
         "otherNames": {
           "common": ""
         },
@@ -390,7 +390,7 @@
     {
         "id": "menziesii",
         "index": 22,
-        "name": "Banksia Mienziesii", 
+        "name": "Banksia mienziesii", 
         "otherNames": {
           "common": "firewood banksia"
         },
@@ -411,7 +411,7 @@
     {
         "id": "petiolaris",
         "index": 23,
-        "name": "Banksia Petiolaris", 
+        "name": "Banksia petiolaris", 
         "otherNames": {
           "common": ""
         },
@@ -434,7 +434,7 @@
     {
         "id": "pilostylis",
         "index": 24,
-        "name": "Banksia Pilostylis", 
+        "name": "Banksia pilostylis", 
         "otherNames": {
           "common": ""
         },
@@ -452,7 +452,7 @@
     {
         "id": "praemorsa",
         "index": 25,
-        "name": "Banksia Praemorsa", 
+        "name": "Banksia praemorsa", 
         "otherNames": {
           "common": "Cut-leaf banksia"
         },
@@ -471,7 +471,7 @@
     {
         "id": "prionotes",
         "index": 26,
-        "name": "Banksia Prionotes", 
+        "name": "Banksia prionotes", 
         "otherNames": {
           "common": "Acorn Banksia "
         },
@@ -489,7 +489,7 @@
     {
         "id": "repens",
         "index": 27,
-        "name": "Banksia Repens ", 
+        "name": "Banksia repens ", 
         "otherNames": {
           "common": ""
         },
@@ -507,7 +507,7 @@
     {
         "id": "sceptrum",
         "index": 28,
-        "name": "Banksia Sceptrum ", 
+        "name": "Banksia sceptrum ", 
         "otherNames": {
           "common": ""
         },
@@ -525,7 +525,7 @@
     {
         "id": "speciosa",
         "index": 29,
-        "name": "Banksia Speciosa", 
+        "name": "Banksia speciosa", 
         "otherNames": {
           "common": "Showy Banksia"
         },
@@ -545,7 +545,7 @@
     {
         "id": "victoriae",
         "index": 30,
-        "name": "Banksia Victoriae", 
+        "name": "Banksia victoriae", 
         "otherNames": {
           "common": ""
         },
@@ -559,6 +559,6 @@
         "shortDesc": "named in honour of Queen Victoria",    
         "description": "A medium sized shrub up to 3 metres high with long narrow leaves which are deeply divided into regular triangular lobes. The new foliage is soft and greenish. ", 
         "flowerDesc": "The flower spikes are conical and initially are white but they turn orange from the base upwards as they age. It flowers in summer and autumn. ",
-        "habitat": "Banksia Victoriae is found in the sandy heathlands of the Irwin and Murchison districts of WA. "   
+        "habitat": "Banksia victoriae is found in the sandy heathlands of the Irwin and Murchison districts of WA. "   
     }
   ]

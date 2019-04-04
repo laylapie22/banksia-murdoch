@@ -44,8 +44,12 @@ map, iframe {
   padding: 4px;
 }
 .visitors_text_cont {
-  padding: 12px;
-  font-size: 0.9em;
+  padding: 10px;
+  
+}
+.visitors_text{
+  font-size: 0.8em;
+  text-align: left;
 }
 .visitors_cont {
   display: flex;

@@ -27,7 +27,7 @@
 #walkthrough_filter_anchor {
   display: flex;  
   flex-wrap: wrap;  
-  padding-top: 40px;
+  padding-top: 60px;
   justify-content: center;
   align-items: center;
 }
@@ -52,4 +52,10 @@
 
 .walkthrough_filter_toggle {
   position: relative;
+}
+#banksia_header {
+  font-size: 30px; 
+  left:5%;
+  padding: 0 60px;
+  font-family: 'Times New Roman', Times, serif;
 }
