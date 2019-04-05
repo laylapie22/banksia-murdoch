@@ -344,17 +344,17 @@ function showModalForId(id) {
 
 // listen to learn more click 
 document.getElementById('slide_show_learn_more1').addEventListener('click', function() {  
-  showModalForId('menziesii')
+  showModalForId('sceptrum')
 })
 
 document.getElementById('slide_show_learn_more2').addEventListener('click', function() {
   showModalForId('victoriae')
 })
 document.getElementById('slide_show_learn_more3').addEventListener('click', function() {
-  showModalForId('repens')
+  showModalForId('mensiezii')
 })
 document.getElementById('slide_show_learn_more4').addEventListener('click', function() {
-  showModalForId('sceptrum')
+  showModalForId('repens')
 })
         
 fetchAndRenderAllFlowers();

@@ -261,6 +261,7 @@ html,body {
 }
 
 .btn_HomepageSec {
+  cursor: pointer;
   display: inline-block;
   padding: 13px 20px;
   color: #fff;
@@ -525,11 +526,6 @@ a.scroll_indicator {
   padding: 62px 22px; 
 }
 
-section {
-  min-height: 100vh;
-}
-
-
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -552,7 +548,7 @@ section {
 }
 footer{
   /* padding: 7% 7% 100px; */
-  background: #007373;
+  background: rgb(167, 7, 7);
   color: white;
 }
 #footer_parts{
@@ -704,7 +700,7 @@ div.menu_ul > div > a:hover {
 }
 
 
-@media only screen and (max-width: 500px) 
+@media only screen and (max-width: 500px) /* mobile portrait */
   { 
 
   .slide_content_title {
@@ -715,8 +711,12 @@ div.menu_ul > div > a:hover {
     text-transform: uppercase;
     text-align: center;
   }
-  #flowers_section, #walkthrough_section, #visitors_info_section, #aboutUs, news_section {
-    padding: 62px 10px; 
+  #flowers_section, #walkthrough_section, #aboutUs{
+    padding: 62px 22px; 
+  }
+
+  #visitors_info_section{
+    padding: 0px;
   }
 
   .modal {
@@ -732,12 +732,25 @@ div.menu_ul > div > a:hover {
   .section_header {
     font-size: 0.8em;
   }
+  .media_controls {
+    display: none;
+  }
+  #site_map {
+    position: relative;
+    padding-top: 2px;
+    letter-spacing: 2px;
+    font: 40px;
+    left: 10px;
+  }
+  #footer_parts {
+    display: unset;
+  }
 }
 
 
-@media only screen 
+@media only screen /* landscape for mobile*/
   and (min-width: 501px) 
-  and (max-width: 800px) { 
+  and (max-width: 812px) { 
 
   .main_section_header {
     display: none;
@@ -745,4 +758,23 @@ div.menu_ul > div > a:hover {
   .menuIcon {
     visibility: visible;
   }
+  .media_controls {
+    display: none;
+  }
+  #site_map {
+    position: relative;
+    padding-top: 2px;
+    letter-spacing: 2px;
+    font: 40px;
+    left: 10px
+  }
+  svg{
+    left: 5%;
+    padding: 0 5px;
+    
+  }
+  #footer_parts {
+    display: unset;
+  }
+
 }
