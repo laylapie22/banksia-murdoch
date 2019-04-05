@@ -441,7 +441,8 @@
         "locations": [
           { "left": 418, "top": 328 },
           { "left": 137, "top": 342 }
-        ],       
+        ],
+        "images":["cone","flower","tree"],       
         "types": ["flower","cone_fruit", "tree_leaf"],
         "floweringPeriod": ["summer"],
         "shortDesc": "the name refers to the soft, hairy styles of the flowers",    
