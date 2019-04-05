@@ -6,6 +6,7 @@ const newsneventsTable = document.getElementById("newsnevents")
 const filterList = document.getElementById("filter")
 
 // Populate News & Events Table & filter drop down list
+// Populate News & Events Table & filter drop down list
 function addNewsnEventsToSection(newsneventsArr, id, date) {
   var optionArr = [];
   for ( const newsnevent of newsneventsArr ) {
@@ -48,7 +49,13 @@ function addNewsnEventsToSection(newsneventsArr, id, date) {
       content.classList.add('content')
       const text = document.createElement('p')
       text.innerHTML = newsnevent.content;
+      const imgDiv = document.createElement('div')
+      imgDiv.classList.add('flower_img')
+      const img = document.createElement('img')
+      img.src = newsnevent.img
+      imgDiv.appendChild(img)
       content.appendChild(text)
+      post.appendChild(imgDiv)
       post.appendChild(title)
       post.appendChild(author)
       post.appendChild(date)
@@ -57,6 +64,7 @@ function addNewsnEventsToSection(newsneventsArr, id, date) {
       tr.appendChild(td) 
       newsneventsTable.appendChild(tr)
   }  
+
 
   // Read More function
   var lineHeight = 20;
