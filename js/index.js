@@ -138,28 +138,6 @@ if ( textButton ) {
 		
 
 
-// ENLARGE TEXT BOIIII START --------------------------------------------------------------------
-
-	// Increase/descrease font size
-	$('#increasetext').click(function() {
-		curSize = parseInt($('#content').css('font-size')) + 2;
-		if (curSize <= 32)
-			$('#content').css('font-size', curSize);
-	});
-
-	$('#resettext').click(function() {
-		if (curSize != 18)
-			$('#content').css('font-size', 18);
-	});
-
-	$('#decreasetext').click(function() {
-		curSize = parseInt($('#content').css('font-size')) - 2;
-		if (curSize >= 14)
-			$('#content').css('font-size', curSize);
-	});
-// ENLARGE TEXT BOIIII END --------------------------------------------------------------------
-
-
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
@@ -212,6 +190,11 @@ let FONT_SIZE_LEVEL = 0
 const SELECTOR_TO_TOGGLE_TEXT_SIZE = [
   '.slide_content_title',
   '.text > p',
+  '.flower_type',
+  '.flower_season',
+  '.section_header',
+  '.visitors_text',
+  '.title'
 ]
 
 document.getElementById('increase_font').addEventListener('click', function() {
@@ -223,8 +206,6 @@ document.getElementById('increase_font').addEventListener('click', function() {
       const newFontSize = originalFontNumber*1.1;
       $(cls).css('font-size', newFontSize);
     })
-    
-    
     FONT_SIZE_LEVEL++
   }
 
@@ -236,7 +217,7 @@ document.getElementById('decrease_font').addEventListener('click', function() {
     SELECTOR_TO_TOGGLE_TEXT_SIZE.forEach( function(cls) {
       const originalFontSize = $(cls).css('font-size');
       const originalFontNumber = parseFloat(originalFontSize, 10);
-      const newFontSize = originalFontNumber*0.8;
+      const newFontSize = originalFontNumber/1.1;
       $(cls).css('font-size', newFontSize);
     })
     FONT_SIZE_LEVEL--

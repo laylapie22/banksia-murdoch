@@ -27,7 +27,7 @@
 #walkthrough_filter_anchor {
   display: flex;  
   flex-wrap: wrap;  
-  padding-top: 40px;
+  padding-top: 60px;
   justify-content: center;
   align-items: center;
 }
@@ -53,3 +53,33 @@
 .walkthrough_filter_toggle {
   position: relative;
 }
+#banksia_header {
+  font-size: 30px; 
+  left:5%;
+  padding: 0 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#walkthrough_section > .heading-title {
+  margin: 20px 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (min-height: 400px) {
+  #walkthrough_filter {
+    width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 560px) and (max-height: 400px) {
+  #walkthrough_filter {
+    width: fit-content;
+  }
+} 
+
+/* For iPhone 5 (landscape mode) */
+@media only screen and (max-width: 568px) and (max-height: 320px) {
+  #walkthrough_filter {
+    width: fit-content;
+  }
+} 

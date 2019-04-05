@@ -61,7 +61,11 @@
     { 
       "id": "baxteri",    
       "index": 4,    
+<<<<<<< HEAD
       "name": "Banksia baxteri", 
+=======
+      "name": "Banksia aaxteri", 
+>>>>>>> master
       "otherNames": {
         "common": "Birdís nest Banksia"
       }, 
@@ -158,7 +162,7 @@
       "index": 9,
       "name": "Banksia chamaephyton", 
       "otherNames": {
-        "common": " "
+        "common": ""
       },
       "locations": [
         { "left": 458, "top": 223 }
@@ -176,7 +180,7 @@
       "index": 10,    
       "name": "Banksia epica", 
       "otherNames": {
-        "common": " "
+        "common": ""
       },
       "locations": [
         { "left": 363, "top": 356  }
@@ -229,7 +233,11 @@
         "id": "g_hiemalis",
         "as": "gardneri",
         "index": 13,
+<<<<<<< HEAD
         "name": "Banksia g hiemalis",
+=======
+        "name": "g hiemalis",
+>>>>>>> master
         "locations": [
           { "left": 452, "top": 291 },
           { "left": 242, "top": 245 }
@@ -327,7 +335,11 @@
         "images": ["cone","flower","tree"],      
         "types": ["flower", "cone_fruit","tree_leaf"],
         "floweringPeriod": ["spring","summer"],
+<<<<<<< HEAD
         "shortDesc": "the name means woolly and refers to the flower bracts",    
+=======
+        "shortDesc": "the name refers to the smooth or unbroken leaf margins",    
+>>>>>>> master
         "description": "A low spreading shrub with long linear blue-green leaves. The new foliage is pink/brown", 
         "flowerDesc": "The flower spikes are orange/brown to cream in colour and appear in late Spring to early summer.",
         "habitat": "Banksia lanata occurs over a limited range between Arrowsmith and Coomallo in the mid-west of WA."   
@@ -390,7 +402,11 @@
     {
         "id": "menziesii",
         "index": 22,
+<<<<<<< HEAD
         "name": "Banksia menziesii", 
+=======
+        "name": "Banksia mienziesii", 
+>>>>>>> master
         "otherNames": {
           "common": "firewood banksia"
         },
@@ -413,7 +429,7 @@
         "index": 23,
         "name": "Banksia petiolaris", 
         "otherNames": {
-          "common": " "
+          "common": ""
         },
         "locations": [
           { "left": 303, "top": 325 },
@@ -436,7 +452,7 @@
         "index": 24,
         "name": "Banksia pilostylis", 
         "otherNames": {
-          "common": " "
+          "common": ""
         },
         "locations": [
           { "left": 418, "top": 328 },
@@ -491,7 +507,7 @@
         "index": 27,
         "name": "Banksia repens ", 
         "otherNames": {
-          "common": " "
+          "common": ""
         },
         "locations": [
           { "left": 286, "top": 246 }
@@ -509,7 +525,7 @@
         "index": 28,
         "name": "Banksia sceptrum ", 
         "otherNames": {
-          "common": " "
+          "common": ""
         },
         "locations": [
           { "left": 147, "top": 509 }
@@ -547,7 +563,7 @@
         "index": 30,
         "name": "Banksia victoriae", 
         "otherNames": {
-          "common": " "
+          "common": ""
         },
         "locations": [
           { "left": 71, "top": 518 },
@@ -559,6 +575,12 @@
         "shortDesc": "named in honour of Queen Victoria",    
         "description": "A medium sized shrub up to 3 metres high with long narrow leaves which are deeply divided into regular triangular lobes. The new foliage is soft and greenish. ", 
         "flowerDesc": "The flower spikes are conical and initially are white but they turn orange from the base upwards as they age. It flowers in summer and autumn. ",
+<<<<<<< HEAD
         "habitat": "Banksia Victoriae is found in the sandy heathlands of the Irwin and Murchison districts of WA. "   
     } 
   ]
+=======
+        "habitat": "Banksia victoriae is found in the sandy heathlands of the Irwin and Murchison districts of WA. "   
+    }
+  ]
+>>>>>>> master

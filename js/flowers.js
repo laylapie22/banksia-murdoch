@@ -114,17 +114,20 @@ function createImagesDiv(flower) {
 function showModal(flower) {
   const modalTitleEl = document.getElementById('flower_title')
   modalTitleEl.innerHTML = flower.name
-  modalTitleEl.innerHTML = '<button type="button" class="close" data-dismiss="modal">&times;</button>'
+  modalTitleEl.innerHTML = `
+  <div>${flower.name}</div>
+  <button type="button" class="close" data-dismiss="modal">&times;</button>
+  `
 
   const modalBodyEl = document.getElementById('flower_body')
   modalBodyEl.innerHTML = `
     <div>
       ${ createNames(flower) }
       ${ createCommonNamesDiv(flower) }
-      <div><b>Description:</b> ${flower.description}</div>
+      <div style='padding:5px;'><b>Description:</b> ${flower.description}</div>
       <div><b>Habitat:</b> ${flower.habitat}</div>
-      ${ createFlowerDescHtml(flower) }
-      ${ createFruitDescHtml(flower) }
+      <div style='padding:5px;'>${ createFlowerDescHtml(flower)}</div>
+      <div style='padding:5px;'>${ createFruitDescHtml(flower) }</div>
       <div class="modal_flower_img_cont">${ createImagesDiv(flower) }</div>
     </div>
   `
@@ -341,17 +344,17 @@ function showModalForId(id) {
 
 // listen to learn more click 
 document.getElementById('slide_show_learn_more1').addEventListener('click', function() {  
-  showModalForId('menziesii')
+  showModalForId('sceptrum')
 })
 
 document.getElementById('slide_show_learn_more2').addEventListener('click', function() {
   showModalForId('victoriae')
 })
 document.getElementById('slide_show_learn_more3').addEventListener('click', function() {
-  showModalForId('repens')
+  showModalForId('mensiezii')
 })
 document.getElementById('slide_show_learn_more4').addEventListener('click', function() {
-  showModalForId('sceptrum')
+  showModalForId('repens')
 })
         
 fetchAndRenderAllFlowers();

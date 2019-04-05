@@ -261,6 +261,7 @@ html,body {
 }
 
 .btn_HomepageSec {
+  cursor: pointer;
   display: inline-block;
   padding: 13px 20px;
   color: #fff;
@@ -521,14 +522,9 @@ a.scroll_indicator {
 }
 
 
-#flowers_section, #walkthrough_section, #visitors_info_section, #aboutUs, news_section {
+#flowers_section, #walkthrough_section, #visitors_info_section, #aboutUs {
   padding: 62px 22px; 
 }
-
-section {
-  min-height: 100vh;
-}
-
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -552,7 +548,7 @@ section {
 }
 footer{
   padding: 7% 7% 100px;
-  background: rgb(204, 0, 0,0.9);
+  background: rgb(167, 7, 7);
   color: white;
 }
 #footer_parts{
@@ -703,10 +699,9 @@ div.menu_ul > div > a:hover {
   padding: 2px 8px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+
+@media only screen and (max-width: 500px) /* mobile portrait */
+  { 
 
   .slide_content_title {
     padding: 4px;
@@ -716,8 +711,12 @@ div.menu_ul > div > a:hover {
     text-transform: uppercase;
     text-align: center;
   }
-  #flowers_section, #walkthrough_section, #visitors_info_section, #aboutUs, news_section {
-    padding: 62px 10px; 
+  #flowers_section, #walkthrough_section, #aboutUs{
+    padding: 62px 22px; 
+  }
+
+  #visitors_info_section{
+    padding: 0px;
   }
 
   .modal {
@@ -730,13 +729,30 @@ div.menu_ul > div > a:hover {
   .menuIcon {
     visibility: visible;
   }
+  .section_header {
+    font-size: 0.8em;
+  }
+  .media_controls {
+    display: none;
+  }
+  #murdoch_contact {
+    padding-top: 32px;
+  }
+  #site_map {
+    position: relative;
+    letter-spacing: 2px;
+    font: 40px;
+    left: 10px;
+    padding-top: 32px;
+  }
+  #footer_parts {
+    display: unset;
+  }
 }
 
-
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen /* landscape for mobile*/
+  and (min-width: 501px) 
+  and (max-width: 812px) { 
 
   .main_section_header {
     display: none;
@@ -744,4 +760,26 @@ div.menu_ul > div > a:hover {
   .menuIcon {
     visibility: visible;
   }
+  .media_controls {
+    display: none;
+  }
+  #murdoch_contact {
+    padding-top: 32px;
+  }
+  #site_map {
+    position: relative;
+    letter-spacing: 2px;
+    font: 40px;
+    left: 10px;
+    padding-top: 32px;
+  }
+  svg{
+    left: 5%;
+    padding: 0 5px;
+    
+  }
+  #footer_parts {
+    display: unset;
+  }
+
 }
