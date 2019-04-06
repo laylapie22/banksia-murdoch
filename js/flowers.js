@@ -351,7 +351,7 @@ document.getElementById('slide_show_learn_more2').addEventListener('click', func
   showModalForId('victoriae')
 })
 document.getElementById('slide_show_learn_more3').addEventListener('click', function() {
-  showModalForId('mensiezii')
+  showModalForId('menziesii')
 })
 document.getElementById('slide_show_learn_more4').addEventListener('click', function() {
   showModalForId('repens')
