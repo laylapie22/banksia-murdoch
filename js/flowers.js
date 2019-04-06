@@ -87,7 +87,7 @@ document.getElementById('flower_filter_summer').innerHTML = `
   <i>${summerSvg()}</i> <span>Summer</span>
 `
 document.getElementById('flower_filter_autumn').innerHTML = `
-  <i>${autumnSvg()}</i> <span>Autum</span>
+  <i>${autumnSvg()}</i> <span>Autumn</span>
 `
 document.getElementById('flower_filter_spring').innerHTML = `
   <i>${springSvg()}</i> <span>Spring</span>
