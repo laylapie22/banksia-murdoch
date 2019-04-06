@@ -87,7 +87,7 @@ document.getElementById('flower_filter_summer').innerHTML = `
   <i>${summerSvg()}</i> <span>Summer</span>
 `
 document.getElementById('flower_filter_autumn').innerHTML = `
-  <i>${autumnSvg()}</i> <span>Autum</span>
+  <i>${autumnSvg()}</i> <span>Autumn</span>
 `
 document.getElementById('flower_filter_spring').innerHTML = `
   <i>${springSvg()}</i> <span>Spring</span>
@@ -351,7 +351,7 @@ document.getElementById('slide_show_learn_more2').addEventListener('click', func
   showModalForId('victoriae')
 })
 document.getElementById('slide_show_learn_more3').addEventListener('click', function() {
-  showModalForId('mensiezii')
+  showModalForId('menziesii')
 })
 document.getElementById('slide_show_learn_more4').addEventListener('click', function() {
   showModalForId('repens')
