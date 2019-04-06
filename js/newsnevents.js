@@ -6,6 +6,7 @@ const newsneventsTable = document.getElementById("newsnevents")
 const filterList = document.getElementById("filter")
 
 // Populate News & Events Table & filter drop down list
+// Populate News & Events Table & filter drop down list
 function addNewsnEventsToSection(newsneventsArr, id, date) {
   var optionArr = [];
   for ( const newsnevent of newsneventsArr ) {
@@ -63,6 +64,7 @@ function addNewsnEventsToSection(newsneventsArr, id, date) {
       tr.appendChild(td) 
       newsneventsTable.appendChild(tr)
   }  
+
 
   // Read More function
   var lineHeight = 20;

@@ -732,7 +732,10 @@ div.menu_ul > div > a:hover {
   .section_header {
     font-size: 0.8em;
   }
-  .media_controls {
+  #increase_font > svg {
+    display: none;
+  }
+  #decrease_font > svg {
     display: none;
   }
   #murdoch_contact {
@@ -760,7 +763,10 @@ div.menu_ul > div > a:hover {
   .menuIcon {
     visibility: visible;
   }
-  .media_controls {
+  #increase_font > svg {
+    display: none;
+  }
+  #decrease_font > svg {
     display: none;
   }
   #murdoch_contact {
