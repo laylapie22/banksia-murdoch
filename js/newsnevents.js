@@ -48,7 +48,13 @@ function addNewsnEventsToSection(newsneventsArr, id, date) {
       content.classList.add('content')
       const text = document.createElement('p')
       text.innerHTML = newsnevent.content;
+      const imgDiv = document.createElement('div')
+      imgDiv.classList.add('flower_img')
+      const img = document.createElement('img')
+      img.src = newsnevent.img
+      imgDiv.appendChild(img)
       content.appendChild(text)
+      post.appendChild(imgDiv)
       post.appendChild(title)
       post.appendChild(author)
       post.appendChild(date)

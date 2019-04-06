@@ -60,12 +60,8 @@
     },
     { 
       "id": "baxteri",    
-      "index": 4,    
-<<<<<<< HEAD
-      "name": "Banksia baxteri", 
-=======
-      "name": "Banksia aaxteri", 
->>>>>>> master
+      "index": 4,   
+      "name": "Banksia baxteri",
       "otherNames": {
         "common": "Birdís nest Banksia"
       }, 
@@ -233,11 +229,7 @@
         "id": "g_hiemalis",
         "as": "gardneri",
         "index": 13,
-<<<<<<< HEAD
         "name": "Banksia g hiemalis",
-=======
-        "name": "g hiemalis",
->>>>>>> master
         "locations": [
           { "left": 452, "top": 291 },
           { "left": 242, "top": 245 }
@@ -335,11 +327,7 @@
         "images": ["cone","flower","tree"],      
         "types": ["flower", "cone_fruit","tree_leaf"],
         "floweringPeriod": ["spring","summer"],
-<<<<<<< HEAD
-        "shortDesc": "the name means woolly and refers to the flower bracts",    
-=======
-        "shortDesc": "the name refers to the smooth or unbroken leaf margins",    
->>>>>>> master
+        "shortDesc": "the name refers to the smooth or unbroken leaf margins", 
         "description": "A low spreading shrub with long linear blue-green leaves. The new foliage is pink/brown", 
         "flowerDesc": "The flower spikes are orange/brown to cream in colour and appear in late Spring to early summer.",
         "habitat": "Banksia lanata occurs over a limited range between Arrowsmith and Coomallo in the mid-west of WA."   
@@ -402,11 +390,7 @@
     {
         "id": "menziesii",
         "index": 22,
-<<<<<<< HEAD
-        "name": "Banksia menziesii", 
-=======
         "name": "Banksia mienziesii", 
->>>>>>> master
         "otherNames": {
           "common": "firewood banksia"
         },
@@ -575,12 +559,6 @@
         "shortDesc": "named in honour of Queen Victoria",    
         "description": "A medium sized shrub up to 3 metres high with long narrow leaves which are deeply divided into regular triangular lobes. The new foliage is soft and greenish. ", 
         "flowerDesc": "The flower spikes are conical and initially are white but they turn orange from the base upwards as they age. It flowers in summer and autumn. ",
-<<<<<<< HEAD
-        "habitat": "Banksia Victoriae is found in the sandy heathlands of the Irwin and Murchison districts of WA. "   
-    } 
-  ]
-=======
         "habitat": "Banksia victoriae is found in the sandy heathlands of the Irwin and Murchison districts of WA. "   
     }
   ]
->>>>>>> master
